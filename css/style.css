@@ -1,0 +1,169 @@
+ body {
+ 	font-size: 16px;
+ 	color: #fff;
+ 	background-color: #DFFFCC;
+ 	font-family: 'Barlow Condensed', sans-serif;
+ 	font-weight: 300;
+}
+
+a {
+  text-decoration: none;}
+
+h2{
+	margin-top: 20px;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #1D214E;
+
+}
+
+h3{
+	margin-top: 10px;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #1D214E;
+}
+
+ }
+/** HEADER **/
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1200px;
+  overflow: hidden;
+
+}
+
+#header-nav {
+  background-color: #1D214E;
+  border: 0;
+}
+.navbar-collapse {
+
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+
+.navbar-brand h1 { /* vad pysslar jag med? texten */
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1;
+  margin-top: 5px;
+  }
+  
+
+
+
+
+#nav-list { /*navigeringslisten */
+  margin-top: 4px;
+max-width: 100%;
+     
+
+
+ }
+ 
+#nav-list a { /*färg och centrering när den går ned */
+  color: #1D214E;
+  text-align: center;
+
+} 
+
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+div #our-menu {
+  background-color: #dddddd;
+  margin-top: 20px;
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #1D214E;
+  overflow: hidden;
+}
+
+ #our-menu p {
+ padding: 15px;
+ color: #1D214E;
+} 
+
+/* EndHome Page */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+			#navbarNavAltMarkup {
+		visibility: hidden;
+	}
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+ 		#navbarNavAltMarkup {
+		visibility: hidden;
+	}
+
+    }
+
+
+
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px)  {
+
+		#navbarNavAltMarkup {
+		visibility: hidden;
+
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ 
+ .navbar-brand {
+		margin-left: 15px;
+	}
+	
+	
+	
+	#collapsable-nav {
+		background-color: #BBEABB;
+	}
+	
+	#nav-list {		
+		padding-left: 0;
+		margin-bottom: 1px;
+		margin-top: 20px;
+	}
+	
+	#nav-list li{
+		text-align: center;
+		border: 2px solid #DFFFCC;
+		margin-bottom:-1px;
+		background-color: #dddddd;
+
+}
+	}
+	#nav-list li:hover{
+		font-weight: bold;
+		background-color: #DFFFCC;
+	}
+
+
+
+  
+ 
+}
+
+  /* End Header */
